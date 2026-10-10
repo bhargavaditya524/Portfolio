@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+   Meta tags 
+   -->
+    <title>Aditya Bhargava - Portfolio</title>
+
+    <meta name="title" content="Aditya Bhargava - Portfolio">
+
+    <meta name="description" content="This is a personal portfolio made by Aditya Bhargava, a software engineer. It showcases his skills, projects, and experience in the field of software development.">
+
+    <!--
+    -favicon
+    -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+
+    <!--
+   google font link
+   -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Open+Sans:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!--
+        -Materrial icon limit
+        -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!--
+      custom css link
+     -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+
+    <!--
+    -#Top BAR
+    -->
+    <header class="topbar">
+        <a href="#" class="logo">
+            <img src="./assets/images/Logo_light.png" alt="Devfolio" width="145" height="32" class="light">
+            <img src="./assets/images/Logo_dark.png" alt="Devfolio" width="145" height="32" class="dark">
+        </a>
+
+        <button class="icon-btn theme-btn" data-theme-btn>
+            <span class="material-symbols-outlined dark" aria-hidden="true"> dark_mode </span>
+            <span class="material-symbols-outlined light" aria-hidden="true"> light_mode </span>
+
+            <div class="state-layer"></div>
+        </button>
+
+    </header>
+
+
+
+    <main>
+        <article>
+
+            <!--#HERO-->
+
+            <section class="section hero">
+                <div class="container">
+                    <figure class="hero-banner img-holder" style="--width: 240px; --height:240px;">
+                        <img src="./assets/images/aadilinkedin.jpeg" width="240" height="240" alt="Aditya Bhargava"
+                            class="img-cover">
+                    </figure>
+
+                    <div class="hero-content">
+                        <span class="label-large section-subtitle">Software Engineer</span>
+
+                        <h1 class="display-small">Aditya Bhargava</h1>
+
+                        <p class="body-large section-text">
+                            I am a software engineer with a passion for building innovative solutions.
+                        </p>
+
+                        <div class="btn-wrapper">
+                            <a href="mailto:bhargavaditya@gmail.com" class="chip">
+                                <span class="material-symbols-outlined" aria-hidden="true"> mail </span>
+
+                                <span class="label-large">bhargavaditya524@gmail.com</span>
+
+                                <div class="state-layer"></div>
+                            </a>
+
+                            <a href="tel:+919201566235" class="chip">
+                                <span class="material-symbols-outlined" aria-hidden="true"> call </span>
+
+                                <span class="label-large">+919201566235</span>
+
+                                <div class="state-layer"></div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--
+        #MAIN CONTENT
+       -->
+            <div class="article">
+
+                <div class="about-card">
+
+                    <h2 class="card-title title-medium">About</h2>
+                    <p class="body-medium card-text">I am a Software Developer specializing in modern web applications, backend development, and database-driven solutions.</p>
+
+                    <ul class="about-list">
+                        <li class="list-item">
+                            <span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
+                            <span class="label-medium">Bhopal, Madhya Pradesh</span>
+                        </li>
+                        <!-- <li class="list-item">
+                            <span class="material-symbols-outlined" aria-hidden="true"> work </span>
+                            <span class="label-medium">CodeBhargava</span>
+                        </li>
+                        <li class="list-item">
+                            <span class="material-symbols-outlined" aria-hidden="true"> captive_portal </span>
+                            <a href="https://example.com" class="label-medium">https://CodeBhargava.in</a>
+                        </li> -->
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <!--
+            PRIMARY TABS
+            -->
+            <div class="primary-tabs">
+
+                <button class="tab-btn active" data-tab-btn>
+                    <span class="tab-text  title-small">Projects</span>
+                    <div class="state-layer"></div>
+                </button>
+                <button class="tab-btn " data-tab-btn="resume">
+                    <span class="tab-text title-small">Resume</span>
+                    <div class="state-layer"></div>
+                </button>
+                <button class="tab-btn " data-tab-btn="contact">
+                    <span class="tab-text title-small">Contact</span>
+                    <div class="state-layer"></div>
+                </button>
+            </div>
+
+            <!--
+           - #PROJECT 
+           -->
+            <section class="section tab-content active" data-tab-content>
+                <div class="container">
+                    <div class="project-list">
+
+
+                        <div class="card">
+                            <figure class="card-banner img-holder" style="--width:334px; --height:180px;">
+                                <img src="./assets/images/RBAC.png" alt="RBAC - Role Based Access Control" width="334"
+                                    height="180" class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+                                <span class="label-large card-subtitle">Asp.net Core, C#,EF Core,Sql Server</span>
+                                <h3 class="title-large card-title">RBAC - Role Based Access Control</h3>
+                            </div>
+                            <a href="https://github.com/bhargavaditya524/RBACSIX" class="state-layer"></a>
+
+                        </div>
+
+
+                        <div class="card">
+                            <figure class="card-banner img-holder" style="--width:334px; --height:180px;">
+                                <img src="./assets/images/RAG.png" alt="RAG - Retrieval Augmented Generation" width="334"
+                                    height="180" class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+                                <span class="label-large card-subtitle">Asp.net Core, C#, Azure</span>
+                                <h3 class="title-large card-title">RAG - Retrieval Augmented Generation</h3>
+                            </div>
+                            <a href="https://github.com/bhargavaditya524/RagApplication" class="state-layer"></a>
+
+                        </div>
+
+                        <div class="card">
+                            <figure class="card-banner img-holder" style="--width:334px; --height:180px;">
+                                <img src="./assets/images/Ecommerce.jpg" alt="Ecommerce Website" width="334"
+                                    height="180" class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+                                <span class="label-large card-subtitle">React, Node.js, MongoDB, Razorpay, Firebase</span>
+                                <h3 class="title-large card-title">Ecommerce Website</h3>
+                            </div>
+                            <a href="https://bharadwajayuvedatest.netlify.app/" class="state-layer"></a>
+
+                        </div>
+
+                        <div class="card">
+                            <figure class="card-banner img-holder" style="--width:334px; --height:180px;">
+                                <img src="./assets/images/Firebase.png" alt="Firebase Authentication" width="334"
+                                    height="180" class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+                                <span class="label-large card-subtitle">Firebase, React, Node.js</span>
+                                <h3 class="title-large card-title">Firebase Authentication</h3>
+                            </div>
+                            <a href="https://github.com/bhargavaditya524/FireBaseAuth" class="state-layer"></a>
+
+                        </div>
+
+
+                         <div class="card">
+                            <figure class="card-banner img-holder" style="--width:334px; --height:180px;">
+                                <img src="./assets/images/AI-Chatbot-Integration-Development.jpg" alt="Ai ChatBot - Integration" width="334"
+                                    height="180" class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+                                <span class="label-large card-subtitle">OpenRouter,Chatbot Integration</span>
+                                <h3 class="title-large card-title">Ai ChatBot - Integration</h3>
+                            </div>
+                            <a href="https://github.com/bhargavaditya524/IntergretedChatBot" class="state-layer"></a>
+
+                        </div>
+                        
+                        <div class="card">
+                            <figure class="card-banner img-holder" style="--width:334px; --height:180px;">
+                                <img src="./assets/images/ReactAsp.netCore.webp" alt="React + Asp.Net Core - Full Stack Project"
+                                    width="334" height="180" class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+                                <span class="label-large card-subtitle">React, Asp.net Core, C#</span>
+                                <h3 class="title-large card-title">React + Asp.Net Core - Full Stack Project</h3>
+                            </div>
+                            <a href="https://github.com/bhargavaditya524/ReactAndAspDotNetCoreIntegration" class="state-layer"></a>
+
+                        </div>
+                         <div class="card">
+                            <figure class="card-banner img-holder" style="--width:334px; --height:180px;">
+                                <img src="./assets/images/CRUD.jpg" alt="Asp.net Core - CRUD Application" width="334"
+                                    height="180" class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+                                <span class="label-large card-subtitle">Asp.net Core, C#, EF Core</span>
+                                <h3 class="title-large card-title">Asp.net Core - CRUD Application</h3>
+                            </div>
+                            <a href="https://github.com/bhargavaditya524/Asp.netSqlServerCrud" class="state-layer"></a>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+
+
+            <!--#RESUME-->
+            <section class="section tab-content resume-tab" data-tab-content="resume">
+
+                <div class="container">
+                    <!-- <h2 class="section-title title-small">Experience</h2>
+
+
+                    <ul class="list">
+                        <li class="resume-item">
+                            <div class="resume-card">
+                                <p class="body-large">Software Engineer, TechGulf Solutions</p>
+                                <span class="label-medium  card-subtitle">2018 - Present</span>
+
+                                <span class="body-medium card-text">Led the development of a customer management system,
+                                    resulting in improved efficiency and streamlined processes.
+                                </span>
+
+                            </div>
+                        </li>
+
+                        <li class="resume-item">
+                            <div class="resume-card">
+                                <p class="body-large">Software Developer Intern, ByteOasis Corporation</p>
+                                <span class="label-medium  card-subtitle">2016 - 2017</span>
+
+                                <span class="body-medium card-text">Assisted in the development and testing of a mobile
+                                    application for internal use.
+                                </span>
+
+                            </div>
+                        </li>
+                    </ul> -->
+                    <h2 class="section-title title-small">Education</h2>
+                    <ul class="list">
+                        <li class="resume-item">
+                            <div class="resume-card">
+                                <p class="body-large">
+                                   Bachelor of Technology in Computer Science and Engineering, TIT Bhopal
+                                </p>
+
+                                <span class="label-medium card-subtitle">2024 - 2028</span>
+                            </div>
+                        </li>
+
+                        <li class="resume-item">
+                            <div class="resume-card">
+                                <p class="body-large">
+                                12th : Government Excellence Higher Secondary School Ganj Basoda
+                                <p>Science Stream</p>
+                                <b> percentage: 91.8%</b>
+                                </p>
+
+                                <span class="label-medium card-subtitle">2024</span>
+                            </div>
+                        </li>
+                          
+                         <li class="resume-item">
+                            <div class="resume-card">
+                                <p class="body-large">
+                                  10th : Ratan Bai Jain Higher Secondary School Ganj Basoda
+                                  <p></p>
+                                  <b> percentage: 86.2%</b>
+                                 
+                                </p>
+
+                                <span class="label-medium card-subtitle">2022</span>
+                            </div>
+                        </li>
+
+                    </ul>
+
+
+                    <h2 class="section-title title-small">Skills and Technologies </h2>
+                    <ul class="resume-bottom-list">
+
+
+
+
+                    <!-- Asp.net -->
+                    <li class="resume-bottom-item">
+                            <img src="./assets/images/iconAsp.net.png" width="28" height="28" loading="lazy" alt="HTML5"
+                                class="icon">
+                            <span class="label-medium">Asp.Net Core</span>
+                     </li>
+                     <!-- Sql Server -->
+                     <li class="resume-bottom-item">
+                       <img src="./assets/images/sqlicon.jpg" width="28" height="28" loading="lazy" alt="HTML5"
+                                class="icon">
+                            <span class="label-medium">Sql Server</span>
+                        </li>
+                    <!-- C# -->
+                     <li class="resume-bottom-item">
+                            <img src="./assets/images/c-sharp.png" width="28" height="28" loading="lazy" alt="HTML5"
+                                class="icon">
+                            <span class="label-medium">C#</span>
+                        </li>
+                    <!-- EF Core -->
+                        <li class="resume-bottom-item">
+                                <img src="./assets/images/efcoreicon.jpg" width="28" height="28" loading="lazy" alt="HTML5"
+                                    class="icon">
+                                <span class="label-medium">EF Core</span>
+                        </li>
+                     <!--RAG-->
+                     <li class="resume-bottom-item">
+                            <img src="./assets/images/ragicon.jpg" width="28" height="28" loading="lazy" alt="HTML5"
+                                class="icon">
+                            <span class="label-medium">RAG</span>
+                        </li>
+                    
+
+                        <li class="resume-bottom-item">
+                            <img src="./assets/images/html5.svg" width="28" height="28" loading="lazy" alt="HTML5"
+                                class="icon">
+                            <span class="label-medium">HTML5</span>
+                        </li>
+
+                        <li class="resume-bottom-item">
+                            <img src="./assets/images/css3.svg" width="28" height="28" loading="lazy" alt="CSS3"
+                                class="icon">
+                            <span class="label-medium">CSS3</span>
+                        </li>
+                        <li class="resume-bottom-item">
+                            <img src="./assets/images/tailwind.png" width="28" height="28" loading="lazy" alt="CSS3"
+                                class="icon">
+                            <span class="label-medium">Tailwind CSS</span>
+                        </li>
+
+                        <li class="resume-bottom-item">
+                            <img src="./assets/images/javascript.svg" width="28" height="28" loading="lazy"
+                                alt="JavaScript" class="icon">
+                            <span class="label-medium">JavaScript</span>
+                        </li>
+                        <li class="resume-bottom-item">
+                            <img src="./assets/images/node.js.svg" width="28" height="28" loading="lazy" alt="Node.js"
+                            class="icon">
+                            <span class="label-medium">Node.js</span>
+                        </li>
+                        
+                        <li class="resume-bottom-item">
+                            <img src="./assets/images/express.png" width="28" height="28" loading="lazy"
+                                alt="JavaScript" class="icon">
+                            <span class="label-medium">Express.js</span>
+                        </li>
+                        <li class="resume-bottom-item">
+                            <img src="./assets/images/react.js.svg" width="28" height="28" loading="lazy" alt="React.js"
+                                class="icon">
+                            <span class="label-medium">React.js</span>
+                        </li>
+                        <li class="resume-bottom-item">
+                            <img src="./assets/images/react.js.svg" width="28" height="28" loading="lazy" alt="React.js"
+                                class="icon">
+                            <span class="label-medium">React-Native</span>
+                        </li>
+
+
+                        <li class="resume-bottom-item">
+                            <img src="./assets/images/github.svg" width="28" height="28" loading="lazy" alt="GitHub"
+                                class="icon">
+                            <span class="label-medium">GitHub</span>
+                        </li>
+
+                        <li class="resume-bottom-item">
+                            <img src="./assets/images/mongoDB.svg" width="28" height="28" loading="lazy" alt="MongoDB"
+                                class="icon">
+                            <span class="label-medium">MongoDB</span>
+                        </li>
+
+                        <li class="resume-bottom-item">
+                            <img src="./assets/images/VS_code.svg" width="28" height="28" loading="lazy" alt="VS Code"
+                                class="icon">
+                            <span class="label-medium">VS Code</span>
+                        </li>
+                        <li class="resume-bottom-item">
+                            <img src="./assets/images/postman.png" width="28" height="28" loading="lazy" alt="VS Code"
+                                class="icon">
+                            <span class="label-medium">Postman</span>
+                        </li>
+                        <li class="resume-bottom-item">
+                            <img src="./assets/images/figma.png" width="28" height="28" loading="lazy" alt="VS Code"
+                                class="icon">
+                            <span class="label-medium">Figma</span>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+
+
+            </section>
+
+            <!--#CONTACT-->
+            <section class="section tab-content contact-tab " data-tab-content="contact">
+                <div class="container">
+                    <div class="contact-info">
+                        <h4 class="section-title title-small">
+                            Contact Info
+                        </h4>
+
+
+                        <ul class="contact-info-list">
+
+                            <li class="contact-info-item">
+                                <div class="icon-box">
+                                    <span class="material-symbols-outlined" aria-hidden="true"> mail </span>
+                                </div>
+
+                                <div class="info-content">
+                                    <p class="label-small info-title">
+                                        Mail Us
+                                    </p>
+
+                                    <a href="mailto:bhargavaditya524@gmail.com"
+                                        class="label-small info-text">bhargavaditya524@gmail.com</a>
+                                   
+
+                                </div>
+
+                            </li>
+
+
+                            <li class="contact-info-item">
+                                <div class="icon-box">
+                                    <span class="material-symbols-outlined" aria-hidden="true"> call </span>
+                                </div>
+
+                                <div class="info-content">
+                                    <p class="label-small info-title">
+                                        Contact Us
+                                    </p>
+
+                                    <a href="tel:+91-9201566235" class="label-small info-text">+91-9201566235</a>
+                                   
+
+                                </div>
+
+                            </li>
+
+
+                            <li class="contact-info-item">
+                                <div class="icon-box">
+                                    <span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
+                                </div>
+
+                                <div class="info-content">
+                                    <p class="label-small info-title">
+                                        Address
+                                    </p>
+
+                                    <a href="#" class="label-small info-text">Tagore Nagar Phase 3, Khajuri kala road, Bhopal [MP]</a>
+
+
+                                </div>
+
+                            </li>
+
+
+
+                        </ul>
+
+                        <h4 class="title-small">Social Info</h4>
+                        <div class="social-list w-50 h-50 ">
+                            <a href="https://www.linkedin.com/in/aditya-bhargava-10896b25b/?originalSubdomain=in" class="social-item">
+                                <img src="./assets/images/linkedin1.png" alt="">
+                            </a>
+                         
+                        </div>
+                       <!--Github-->
+                        <div class="social-list w-50 h-50 ">
+                            <a href="https://github.com/bhargavaditya524" class="social-item">
+                                <img src="./assets/images/icons8-github-logo-50.png" alt="">
+                            </a>
+                         
+                        </div>
+                            <!--Upwork-->
+                        <div class="social-list w-50 h-50 ">
+                            <a href="https://www.upwork.com/freelancers/~01069dba5cf7a8e7ce?mp_source=share" class="social-item">
+                                <img src="./assets/images/upwork.jpg" alt="">
+                            </a>
+                         
+                        </div>
+
+                    </div>
+
+                    <div class="contact-form">
+
+                        <h3 class="title-large">Lets Work Together.</h3>
+
+                        <form action="https://formspree.io/f/mqawzpve" method="post" class="input-wrapper">
+
+                            <input type="text" name="name" placeholder="Name*" required class="input-field">
+
+                            <input type="email" name="email" placeholder="Email*" required class="input-field">
+
+                            <input type="text" name="subject" placeholder="subject" class="input-field">
+
+                            <textarea name="message" placeholder="Message*" required class="textarea"></textarea>
+
+                            <button class="btn" type="submit" value="send">
+                                <span class="label-large">
+                                    Send Message
+                                </span>
+                                <div class="state-layer"></div>
+                            </button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+        </article>
+    </main>
+
+
+
+    <!--
+    #FOOTER
+    -->
+    <footer class="footer">
+        <div class="container">
+
+            <p class="body-medium">Copyright 2026. All rights reserved by Aditya Bhargava</p>
+
+        </div>
+    </footer>
+
+
+    <!--
+custom js link    
+-->
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
