@@ -550,7 +550,26 @@ body {
 .card-title {
   color: var(--on-surface);
 }
+.card-text {
+    margin-block: 8px 12px;
+    color: var(--on-surface-variant, #666);
+    line-height: 1.5;
+}
 
+.card-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 6px;
+    font-size: 0.85rem;
+}
+
+.card-features li::before {
+    content: "✓ ";
+    color: var(--primary, #4f46e5);
+    font-weight: 600;
+}
 /**
  * INPUT FIELD
  */
